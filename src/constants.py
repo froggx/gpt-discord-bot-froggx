@@ -37,21 +37,21 @@ for s in server_channels:
 BOT_INVITE_URL = f"https://discord.com/api/oauth2/authorize?client_id={DISCORD_CLIENT_ID}&permissions=328565073920&scope=bot"
 
 MODERATION_VALUES_FOR_BLOCKED = {
-    "hate": 0.5,
-    "hate/threatening": 0.1,
-    "self-harm": 0.2,
-    "sexual": 0.5,
+    "hate": 0.2,
+    "hate/threatening": 0.05,
+    "self-harm": 0.1,
+    "sexual": 0.2,
     "sexual/minors": 0.2,
-    "violence": 0.7,
-    "violence/graphic": 0.8,
+    "violence": 0.3,
+    "violence/graphic": 0.4,
 }
 
 MODERATION_VALUES_FOR_FLAGGED = {
-    "hate": 0.4,
-    "hate/threatening": 0.05,
-    "self-harm": 0.1,
-    "sexual": 0.3,
-    "sexual/minors": 0.1,
+    "hate": 0.1,
+    "hate/threatening": 0.02,
+    "self-harm": 0.05,
+    "sexual": 0.1,
+    "sexual/minors": 0.05,
     "violence": 0.1,
     "violence/graphic": 0.1,
 }
